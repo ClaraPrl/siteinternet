@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="reservation_skyfall.css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+
+  <body>
+
+    <header>
+      <a href="file:///Users/clarapoirel/Desktop/Documents/projetsite/index.html">
+        <img src="http://www.liceucontemporaneo.com.br/wp-content/uploads/2017/12/movies.png">
+      </a>
+      <h1>Le Cinéma de Clara</h1>
+
+      <ul class="listemenu">
+        <li>
+          <b class="menu">
+            À l'affiche
+          <ul class="sous-menu">
+            <li><a href="file:///Users/clarapoirel/Desktop/Documents/projetsite/menu_action.html">Action</a></li>
+            <li><a href="file:///Users/clarapoirel/Desktop/Documents/projetsite/menu_aventure.html">Aventure</a></li>
+            <li><a href="file:///Users/clarapoirel/Desktop/Documents/projetsite/menu_comedie.html">Comédie</a></li>
+            <li><a href="file:///Users/clarapoirel/Desktop/Documents/projetsite/menu_dessinsanimes.html">Dessins animés</a></li>
+          </ul>
+        </b>
+      </li>
+      </ul>
+    </header>
+
+    <section class="listes_deroulantes">
+      <center>
+        <p>Sélectionnez le film</p>
+        <FORM>
+        <SELECT name="film" size="1">
+          <OPTION selected>Skyfall</OPTION>
+          <OPTION>Matrix</OPTION>
+          <OPTION>Avengers</OPTION>
+          <OPTION>Spiderman</OPTION>
+          <OPTION>Mission Imposible</OPTION>
+          <OPTION>Tomb Raider</OPTION>
+          <OPTION>Indiana Jones</OPTION>
+          <OPTION>Jurassic World</OPTION>
+          <OPTION>Jumanji</OPTION>
+          <OPTION>Le Seigneur des Anneaux</OPTION>
+          <OPTION>Pirates des Caraïbes</OPTION>
+          <OPTION>Jurassic Park</OPTION>
+          <OPTION>La Cage Dorée</OPTION>
+          <OPTION>Very Bad Trip</OPTION>
+          <OPTION>Les Tuche 3</OPTION>
+          <OPTION>Nos Jours Heureux</OPTION>
+          <OPTION>L'Arnacoeur</OPTION>
+          <OPTION>Babysitting</OPTION>
+          <OPTION>Les Indestructibles</OPTION>
+          <OPTION>Les Aventures de Tintin</OPTION>
+          <OPTION>Shrek</OPTION>
+          <OPTION>Toy Story</OPTION>
+          <OPTION>Monstres & Cie</OPTION>
+          <OPTION>L'Âge de Glace 5</OPTION>
+        </SELECT>
+        </FORM>
+        <p>Sélectionnez le jour de votre séance</p>
+        <FORM>
+        <SELECT name="jours" size="1">
+          <OPTION>--</OPTION>
+          <OPTION>Lundi</OPTION>
+          <OPTION>Mardi</OPTION>
+          <OPTION>Mercredi</OPTION>
+          <OPTION>Jeudi</OPTION>
+          <OPTION>Vendredi</OPTION>
+        </SELECT>
+        </FORM>
+        <p>Sélectionnez l'horaire de votre séance</p>
+        <SELECT name="heures" size="1">
+          <OPTION>--</OPTION>
+          <OPTION>09h00</OPTION>
+          <OPTION>11h30</OPTION>
+          <OPTION>14h00</OPTION>
+          <OPTION>18h00</OPTION>
+          <OPTION>21h00</OPTION>
+        </SELECT>
+        </FORM>
+        </center>
+    </section>
+    <center><button id="randbutton">Valider</button>
+    <p id="randtext"> </p>
+    <script type="text/javascript">
+  $(function()
+  {
+    $('#randbutton').click(function()
+    {
+      $('#randtext').html("Il reste " + Math.floor((Math.random() * 50) + 1) + " places disponibles !");
+    });
+  });
+    </script>
+  </center>
+  </body>
+</html>

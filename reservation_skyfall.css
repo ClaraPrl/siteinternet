@@ -1,0 +1,92 @@
+header {
+  background-image: url(https://thumbs.dreamstime.com/t/texture-sans-joint-en-cuir-rouge-13820871.jpg);
+  display:flex;
+  height:120px;
+    justify-content:space-between;
+    position:fixed;
+        top: 0;
+        left : 0;
+        right: 0;
+}
+
+header img {
+  margin-top :10px;
+  height: 100px;
+}
+
+.barre_recherches{
+  margin-top:60%;
+}
+#searchbar{
+    position:relative;
+    width:1040px;
+    height:auto;
+    display:inline-block;
+}
+#searchbar .text{
+    width:300px;
+    float:left;
+}
+#searchbar .champ{
+    width:600px;
+    height:35px;
+    float:left;
+}
+#searchbar .bouton{
+    background-image: url(images/searchbar_button.png);
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border:none;
+    float:left;
+}
+
+body h1 {
+  color:yellow;
+}
+header h1{
+  color:white;
+  font-family:cursive;
+}
+
+ul ul {
+  display:none;
+}
+
+li:hover ul.sous-menu {
+  display:block;
+}
+
+.listemenu{
+  list-style-type:none;
+}
+
+.menu{
+  display: flex;
+ border: 2px solid white;
+ padding: 12px 30px;
+ border-radius: 7px;
+ color: white;
+ text-decoration: none;
+ margin-right:10px;
+}
+
+.listes_deroulantes{
+  margin-top:11%;
+}
+
+button {
+  margin-top:3%;
+}
+
+body{
+  background-image: url(http://variancefm.com/v2/wp-content/uploads/2017/04/cinema-gaumont-pathe-390%E2%82%AC-seance-modernists-2.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+body p{
+  color:white;
+  font-size:large;
+}

@@ -1,0 +1,147 @@
+header {
+  background-image: url(https://thumbs.dreamstime.com/t/texture-sans-joint-en-cuir-rouge-13820871.jpg);
+  display:flex;
+  height:120px;
+    justify-content:space-between;
+    position:fixed;
+        top: 0;
+        left : 0;
+        right: 0;
+}
+
+header img {
+  margin-top :10px;
+  height: 100px;
+}
+
+body h1 {
+  color:yellow;
+}
+
+header h1{
+  color:white;
+  font-family:cursive;
+}
+
+ul ul {
+  display:none;
+}
+
+li:hover ul.sous-menu {
+  display:block;
+}
+
+.listemenu{
+  list-style-type:none;
+}
+
+.menu{
+  display: flex;
+ border: 2px solid white;
+ padding: 12px 30px;
+ border-radius: 7px;
+ color: white;
+ text-decoration: none;
+ margin-right:10px;
+}
+
+body{
+  background-image:url(http://4.bp.blogspot.com/-Cyli10Jywd0/UWElu48scMI/AAAAAAAABLs/tWQtkbYW-Rk/s1600/stage-background.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.bouton{
+  display: flex;
+    border: 2px solid white;
+    padding: 12px 30px;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    background-color:#FA5858;
+    text-align:center;
+}
+.soustitre img{
+  height:40px;
+}
+
+body p {
+  color:white;
+}
+
+body h2 {
+  color:white;
+}
+
+body h3 {
+  color:white;
+}
+
+.affiches{
+  margin-top: 10%;
+}
+
+.affiches article img {
+  height:300px;
+  margin-left:50px;
+}
+
+article {
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 5%;
+}
+
+article h2 {
+  font-family:sans-serif;
+  text-decoration:underline;
+}
+
+.caracteristiques {
+  margin-left:2%;
+  font-family:sans-serif;
+}
+
+.sous-affiches {
+  display:none;
+}
+
+.article1:hover .sous-affiches,
+.article2:hover .sous-affiches,
+.article3:hover .sous-affiches,
+.article4:hover .sous-affiches {
+  display:block;
+  justify-content:flex-end;
+  margin-left:200px;
+}
+
+article aside h4 {
+  text-decoration:underline;
+}
+
+article aside img {
+  display:flex;
+  flex-direction:column;
+  vertical-align:middle;
+}
+
+footer{
+    background-image: url(https://thumbs.dreamstime.com/t/texture-sans-joint-en-cuir-rouge-13820871.jpg)
+}
+
+footer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+footer h4{
+  color:white;
+  text-decoration:underline;
+}
+
+footer p{
+    color:white;
+    margin-top:0%;
+}
